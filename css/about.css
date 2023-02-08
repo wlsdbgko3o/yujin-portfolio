@@ -1,0 +1,201 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; font-family: 'NanumSquare', sans-serif;}
+li{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+
+
+
+.about{width: 100%; height: 1050px; }
+.about > img{position: relative; width: 100%; height: 1050px;}
+.about .about-wrap{
+    max-width: 1500px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap ;
+    position: absolute;
+    top: 135px;
+    left: 300px;
+    
+    
+}
+
+.about .profile-left{max-width: 100%; display: flex; align-items: center; }
+.about .profile-left .story{margin-left: 50px; margin-bottom: 10px; letter-spacing: -.5px;}
+.about .profile-left .story h2{font-size: 50px; margin-bottom: 20px; color: #f9857b; font-weight: bold;}
+.about .profile-left .story h3{font-size: 30px;}
+.about .profile-left .story h4{font-size: 30px;margin-bottom: 10px;}
+.about .profile-left .story p{font-size: 20px;}
+
+.about .profile-right {width: 100%;  display: flex; align-items: center; margin-top: -250px;  justify-content: end; letter-spacing: -.5px;}
+.about .profile-right .right-story{width: 420px; background-color: #fff; padding: 20px; border-radius: 40px;}
+.about .profile-right .right-story span{}
+
+.triangle {
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-top: 25px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    rotate: -90deg;
+}
+
+
+
+/* mt-story */
+.my-story{max-width: 100%; height: 1300px; background-color: #fff;position: relative; }
+.my-story .back-img{width: 100%; text-align: center;}
+.my-story .back-img img{width: 100%; height: 100%;}
+.my-story .my-story-wrap{
+    max-width: 1300px;
+    display: flex;
+    flex-wrap:wrap ;
+    position: absolute;
+    top: 270px;
+    left: 220px;
+    
+    }
+
+
+.my-story .progress-content{
+    width: 100%; height: 516px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.my-story .progress-content h2{ 
+    text-align: center;
+    padding-bottom: 100px;
+    margin-right: 300px;
+    font-size: 30px;
+    color: #f9857b;
+}
+.my-story .progress-content .content{
+    width: 80%; height: 90px;
+    margin: 0 auto; margin-top: -20px;
+}
+.my-story .progress-content .content span{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #000;
+    font-size: 18px;
+}
+.my-story .progress-content .content p{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100px; 
+    text-align: center;
+    letter-spacing: -1px;
+}
+.my-story .progress-content .content .progress{
+    margin-top: -22px; margin-left: 180px;
+}
+
+#pro1{
+    width: 50%; height: 5px;
+}
+#pro1::after{
+    content: "내가 하는 일에 책임감을 가지고 일을 해낼 수 있습니다.";
+    color: #090909;
+    font-size: 14px;
+}
+#pro2{
+    width: 50%; height: 5px;
+}
+#pro2::after{
+    content: "사람들과 소통하며 원할하게 관계를 유지할 수 있습니다.";
+    color: #090909;
+    font-size: 14px;
+}
+#pro3{
+    width: 50%; height: 5px;
+}
+#pro3::after{
+    content: "배우는데 겁내지 않고 학습하며 발전해 나갈 수 있습니다.";
+    color: #090909;
+    font-size: 14px;
+}
+
+/* experience */
+.my-story .experiences{
+    width: 600px; height: 501px;
+    left: 800px;
+    position: relative;
+    margin-top: -30px;
+    
+    
+    
+    
+    
+}
+.my-story .experiences .experiences-wrap{
+    width: 550px;
+    height: 301px;
+    display: flex;
+    flex-wrap:wrap ;
+    position: absolute;
+    
+    
+    
+    
+}
+.my-story .experiences h2{ 
+    
+    font-size: 30px;
+    color: #f9857b;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.my-story .experiences .ex-01{display: flex; flex-wrap: wrap;margin-bottom: 20px;}
+.my-story .experiences .ex-02{display: flex; flex-wrap: wrap;
+    margin-bottom: 20px;}
+.my-story .experiences .ex-03{display: flex; flex-wrap: wrap;
+    margin-bottom: 20px;}
+.my-story .experiences .ex-04{display: flex; flex-wrap: wrap;}
+.my-story .experiences .experiences-in p:nth-child(1){margin-right: 30px;}
+.my-story .experiences .experiences-in p:nth-child(3){margin-left: 165px;} 
+
+
+
+
+/* license */
+.my-story .license{
+    max-width: 434px; height: 252px;
+    right: 425px;
+    top: 400px;
+    position: relative;
+    
+    }
+.my-story .license .license-wrap{
+    width: 400px; height: 200px;
+    position: absolute; 
+}
+.my-story .license h2{margin-left: 65px;}
+.my-story .license .license01{display: flex; flex-wrap: wrap;}
+
+
+    
+    .my-story .license h2{font-size: 30px; color: #f9857b; margin-bottom: 40px;}
+    .my-story .license .license-01{display: flex; margin-bottom: 10px;}
+    .my-story .license .license-02{display: flex;}
+    .my-story .license p{margin-right: 30px;}
+
+
+
+
+/* skill */
+.skill {width: 100%; height: 800px; }
+.skill .skill-wrap{width: 1300px; margin: 0 auto;}
+.skill h2{font-size: 40px; color: #f9857b; text-align: center; margin-top: 500px; margin-bottom: 100px;}
+.skill .skill-img{margin: 0 auto; width: 1175px; display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 30px;}
+
+.skill .skill-in{display: flex; justify-content: space-between; text-align: center; font-size: 19px;}
+.skill .skill-in h3{margin-bottom: 15px;}
+.skill .skill-in p{margin-bottom: 5px;}
+
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');

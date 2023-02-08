@@ -1,0 +1,114 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; font-family: 'NanumSquare', sans-serif;}
+li{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+
+
+
+
+/* cover */
+.cover{width: 100%; background: linear-gradient(to right, rgba(249,133,123,.5) 0%, rgba(255,218,146,.5) 100%); position: relative;}
+.cover .cover-line{width: 100%; height: 100px; background-color: #f2807b; margin-top: 700px; position: absolute;z-index: -1;}
+.cover .cover-wrap{width: 1600px; height: 1200px; margin: 0 auto;}
+
+.cover .illust ul { height: 1000px;display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding-top: 200px;}
+.cover .illust ul li:nth-child(3) img{width: 200px;}
+.cover .illust .say{width: 377px; height: 144px; background-color: #fff; position: absolute; margin-top: 300px; margin-left: 620px; border-radius: 100px;}
+.cover .illust .say .say-in{text-align: center; margin-top: 30px;}
+.cover .illust .say .say-in h3{font-size: 35px; padding-bottom: 5px;}
+.cover .illust .say .say-in p{font-size: 18px;}
+
+.triangle {
+    position: absolute;
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-top: 25px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 440px;
+    left: 50%;
+}
+
+
+/* experience-in */
+.experience-in {width: 100%; background: linear-gradient(to right, rgba(249,133,123,.2) 0%, rgba(255,218,146,.2) 100%);  height: 5027px;}
+.experience-in .experience-in-wrap{width: 1500px; margin: 0 auto;}
+.experience-in > img{position: relative; top: 950px; z-index: -1;}
+.experience-in > img:nth-child(2){top: 55%; left: 26%;}
+
+/* univercity */
+.experience-in .univercity{width: 1700px; height: 1500px; display: flex; flex-wrap: wrap; position: absolute; margin-top: -500px;}
+.experience-in .univercity .img-content{width: 953px; display: flex;  margin-top: 0px; margin-left: 20px;}
+.experience-in .univercity .img-content .img-box1{margin-right: 15px;}
+.experience-in .univercity .img-content .img-box1 img:nth-child(2){margin-top: 15px;}
+.experience-in .univercity .img-content .img-box1 img:nth-child(3){margin-top: -30px;}
+.experience-in .univercity .img-content .img-box2 img:nth-child(2){margin-top: 15px;}
+.experience-in .univercity .story{ margin-left: 60px; margin-top: 45%; transform: translateY(-50%); }
+.experience-in .univercity .story h3{font-size: 32px; margin-bottom: 40px; color: #f2807b; font-weight: bold;}
+.experience-in .univercity .story h2{width: 380px; font-size: 30px; margin-bottom: 30px;  color: #000; background-color: #f2807b; padding: 15px 30px; color: #fff; border-radius: 30px;}
+
+.experience-in .univercity .story p{font-size: 20px; line-height: 25px; }
+
+/* child-art */
+
+.experience-in .child-art{width: 100%; position: relative; top: 900px; left: 150px;}
+
+
+.experience-in .child-art .story{width: 550px;}
+.experience-in .child-art .story h3{font-size: 32px; margin-bottom: 40px; color: #f2807b; font-weight: bold;}
+.experience-in .child-art .story h2{ width: 300px; font-size: 30px; margin-bottom: 30px;  color: #000; background-color: #f2807b; padding: 15px 30px; color: #fff; border-radius: 30px;}
+
+.experience-in .child-art .story p{font-size: 20px; line-height: 25px; margin-bottom: 30px;}
+
+.experience-in .child-art .img-content{width: 1300px; height: 1000px;}
+.experience-in .child-art .img-content .img-box-1{margin-bottom: 20px;}
+.experience-in .child-art .img-content .img-box-2{margin-left: 200px;}
+.experience-in .child-art .img-content .img-box-1 img{margin-right: 20px;}
+.experience-in .child-art .img-content .img-box-2 img{margin-right: 20px;}
+
+/* art-exhibition */
+
+.experience-in .art-exhibition{width: 100%;
+top: 1000px; position: relative;}
+.experience-in .art-exhibition .img-content{width: 1300px;}
+.experience-in .art-exhibition .art-wrap{display: flex;}
+
+.experience-in .art-exhibition .img-content img:nth-child(1){ width: 350px;}
+.experience-in .art-exhibition .img-content img:nth-child(2){ margin-left: 300px; margin-top: -200px;}
+.experience-in .art-exhibition .img-content img:nth-child(3){
+    margin-left: 100px; margin-top: 15px; 
+}
+
+
+
+
+.experience-in .art-exhibition .story{width: 860px; margin-top: 350px;}
+.experience-in .art-exhibition .story h3{font-size: 32px; margin-bottom: 40px; color: #f2807b; font-weight: bold;}
+.experience-in .art-exhibition .story h2{ width: 300px; font-size: 30px; margin-bottom: 30px;  color: #000; background-color: #f2807b; padding: 15px 30px; color: #fff; border-radius: 30px;}
+.experience-in .art-exhibition .story p{font-size: 20px; line-height: 25px; margin-bottom: 30px;}
+
+
+
+
+
+
+
+
+/* footer */
+.footer-end{width: 100%; height: 60px; background-color: rgba(249, 133, 123, .5); }
+.footer-end .footer-end-wrap{width: 1200px; height: 10px; margin: 0 auto; font-size: 17px; text-align: center;  }
+.footer-end p{padding-top: 20px; color: #fff; }
+
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+
+

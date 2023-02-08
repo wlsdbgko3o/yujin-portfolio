@@ -1,0 +1,58 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; font-family: 'NanumSquare', sans-serif;}
+li{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+.header{
+    width: 100%; height: 130px; 
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 9;
+    background-color: rgba(255,255,255,.6)
+}
+.header .header-wrap{max-width: 80%; height: 100%; margin: 0 auto;}
+.header .logo a img{width: 80px;}
+.header .logo{
+    float: left;
+    width: 100px; height: 70px;
+    margin-top: 30px;
+}
+.header .nav{
+    float: right;
+    width: 700px; height: 50px;
+    margin-top: 40px;
+}
+.header .nav ul{
+    width: 100%; overflow: hidden;
+}
+.header .nav ul li{
+    float: left;
+    width: 25%; line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+.header .nav ul li a{
+    display: inline-block;
+    width: 100%;
+    font-family: "dutch";
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+.header .nav ul li:hover a{color: #f9857b;}
+.header .nav ul li.on a{color: #f9857b;font-weight: bold;}
+
+
+
+
+
+
+
+/* footer */
+.footer{width: 100%; height: 60px; background-color: rgba(249, 133, 123, .5); }
+.footer .footer-wrap{width: 1200px; height: 10px; margin: 0 auto; font-size: 17px; text-align: center;  }
+.footer p{padding-top: 20px; color: #fff; }
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');

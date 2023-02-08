@@ -1,0 +1,181 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+.main{width: 100%; height: 100%; overflow: hidden;}
+.main picture img{ width: 1920px; height: 100%; position: relative;}
+.main .main-wrap{
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 100px;
+    overflow: hidden;
+}
+.main .logo{
+    position: absolute;
+    top: 70px; left: 100px;
+}
+
+
+
+.main .menu a:nth-child(1) img:nth-child(1) {
+    position: absolute;
+    top: 217px;
+    left: 501px;
+    text-align: center;
+    transition: .5s;
+}
+.main .menu a:nth-child(1):hover img:nth-child(1){
+    rotate: 5deg;
+}
+.main .menu a:nth-child(1) img:nth-child(2) {
+    position: absolute;
+    top: 217px;
+    left: 501px;
+    text-align: center;
+    transition: .5s;
+    opacity: 0;
+}
+.main .menu a:nth-child(1):hover img:nth-child(2){
+    opacity: .8;
+}
+.main .menu a:nth-child(1) p{
+    position: absolute;
+    top: 250px;
+    left: 915px;
+    display: none;
+    background-color: #fff;
+    padding: 10px; border-radius: 10px;
+}
+.main .menu a:nth-child(1):hover p{
+    display: block;}
+
+
+
+
+    .main .menu a:nth-child(2) img:nth-child(1) {
+        position: absolute;
+        top: 217px;
+        left: 1135px;
+        text-align: center;
+        transition: .5s;
+    }
+    .main .menu a:nth-child(2):hover img:nth-child(1){
+        rotate: 5deg;
+    }
+    .main .menu a:nth-child(2) img:nth-child(2) {
+        position: absolute;
+        top: 217px;
+        left: 1135px;
+        text-align: center;
+        transition: .5s;
+        opacity: 0;
+    }
+    .main .menu a:nth-child(2):hover img:nth-child(2){
+        opacity: .8;
+    }
+    .main .menu a:nth-child(2) p{
+        position: absolute;
+        top: 250px;
+        left: 905px;
+        display: none;
+        background-color: #fff;
+        padding: 10px; border-radius: 10px;
+    }
+    .main .menu a:nth-child(2):hover p{
+        display: block;}
+
+
+
+.main .menu a:nth-child(3) img:nth-child(1) {
+    position: absolute;
+    top: 589px;
+    left: 501px;
+    text-align: center;
+    transition: .5s;
+}
+.main .menu a:nth-child(3):hover img:nth-child(1){
+    rotate: 5deg;
+}
+.main .menu a:nth-child(3) img:nth-child(2) {
+    position: absolute;
+    top: 589px;
+    left: 501px;
+    text-align: center;
+    transition: .5s;
+    opacity: 0;
+}
+.main .menu a:nth-child(3):hover img:nth-child(2){
+    opacity: .8;
+}
+.main .menu a:nth-child(3) p{
+    position: absolute;
+    top: 250px;
+    left: 912px;
+    display: none;
+    background-color: #fff;
+    padding: 10px; border-radius: 10px;
+}
+.main .menu a:nth-child(3):hover p{
+    display: block;}
+
+
+
+
+    .main .menu a:nth-child(4) img:nth-child(1) {
+        position: absolute;
+        top: 588.5px;
+        left: 1135px;
+        text-align: center;
+        transition: .5s;
+    }
+    .main .menu a:nth-child(4):hover img:nth-child(1){
+        rotate: 5deg;
+    }
+    .main .menu a:nth-child(4) img:nth-child(2) {
+        position: absolute;
+        top: 588.5px;
+        left: 1135px;
+        text-align: center;
+        transition: .5s;
+        opacity: 0;
+    }
+    .main .menu a:nth-child(4):hover img:nth-child(2){
+        opacity: .8;
+    }
+    .main .menu a:nth-child(4) p{
+        position: absolute;
+        top: 250px;
+        left: 900px;
+        display: none;
+        background-color: #fff;
+        padding: 10px; border-radius: 10px;
+    }
+    .main .menu a:nth-child(4):hover p{
+        display: block;}
+    .main .menu .triangle {
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    rotate: 0deg;
+    position: absolute;
+    top: 290px;
+    left: 943px;
+    display: none;
+    
+    
+}
+.main .menu a:nth-child(1):hover .triangle,
+.main .menu a:nth-child(2):hover .triangle,
+.main .menu a:nth-child(3):hover .triangle,
+.main .menu a:nth-child(4):hover .triangle{display: block;}
+
+
+    
+
+
+
